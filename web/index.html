@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Главная</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="full">
+			<div class="menu">
+				<ul>
+					<li><a class="active" href="index.html"><i class="home"></i></a></li>
+					<li><a href="videos.html"><div class="video"><i class="videos"></i><i class="videos1"></i></div></a></li>
+					<li><a href="reviews.html"><div class="cat"><i class="watching"></i><i class="watching1"></i></div></a></li>
+				</ul>
+			</div>
+		<div class="main">
+		<div class="header">
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+					<p>Главная</p>
+				</div>
+				<div class="search">
+					<form>
+						<input type="text" value="Поиск.." onfocus="if (this.value =='Поиск..'){this.value = ''};" onblur="if (this.value == '') {this.value = 'Поиск..';}"/>
+						<input type="submit" value="">
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="header-info">
+				<h1>Чёрный Адам</h1>
+				<p class="review">Рейтинг	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;  7.8/10</p>
+				<p class="review reviewgo">Жанр	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp; фантастика, фэнтези, боевик</p>
+				<p class="review">Релиз &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; 19 октября 2022</p>
+				<p class="review">Актеры &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; Дуэйн Джонсон, Сара Шахи, Виола Дэвис, Пирс Броснан, Ной Сентинео, Элдис Ходж, Куинтесса Суинделл, Оделя Алеви, Энджел Розарио мл., Джозеф Гатт</p>
+				<p class="special">5000 лет назад Чёрный Адам был наделен силами египетских богов и заключён в тюрьму. Теперь он освобождается из своей усыпальницы и готовится явить миру уникальный подход к борьбе за справедливость.</p>
+			</div>
+		</div>
+		<div class="review-slider">
+			 <ul id="flexiselDemo1">
+				<li><img src="images/gridallbum1.jpg" alt=""/></li>
+				<li><img src="images/gridallbum3.jpg" alt=""/></li>
+				<li><img src="images/gridallbum4.jpg" alt=""/></li>
+				<li><img src="images/gridallbum5.jpg" alt=""/></li>
+				<li><img src="images/gridallbum6.jpg" alt=""/></li>
+				<li><img src="images/gridallbum7.jpg" alt=""/></li>
+				<li><img src="images/gridallbum8.jpg" alt=""/></li>
+				<li><img src="images/gridallbum9.jpg" alt=""/></li>
+				<li><img src="images/gridallbum10.jpg" alt=""/></li>
+				<li><img src="images/gridallbum11.jpg" alt=""/></li>
+				<li><img src="images/gridallbum12.jpg" alt=""/></li>
+		</ul>
+			<script type="text/javascript">
+		$(window).load(function() {
+			
+		  $("#flexiselDemo1").flexisel({
+				visibleItems: 6,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: false,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 2
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems: 3
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 4
+					}
+				}
+			});
+			});
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
+		</div>
+		<div class="video">
+			<iframe  src="https://www.youtube.com/embed/qTLqSkKd5Wg" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="news">
+			<div class="col-md-6 news-left-grid">
+				<h3>Не опаздывай,</h3>
+				<h2>Забронируйте билет прямо сейчас!</h2>
+				<h4>Легко, просто и быстро.</h4>
+				<a href="buy.html"><i class="book"></i>Купить</a>
+			</div>
+			<div class="col-md-6 news-right-grid">
+				<h3>Новости</h3>
+				<div class="news-grid">
+					<h5>Вопрос</h5>
+					<label>дата</label>
+					<p>Ну на этот раз мой проект похож на проект 3 курса?</p>
+				</div>
+				<div class="news-grid">
+					<h5>~~~~~~</h5>
+					<label>01.12.2022</label>
+					<p>~~~~~~~~~~~~~~</p>
+				</div>
+				<a class="more" href="#">ДАЛЕЕ</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="more-reviews">
+			 <ul id="flexiselDemo2">
+			<li><img src="images/gridallbum1.jpg" alt=""/></li>
+			<li><img src="images/gridallbum3.jpg" alt=""/></li>
+			<li><img src="images/gridallbum4.jpg" alt=""/></li>
+			<li><img src="images/gridallbum5.jpg" alt=""/></li>
+			<li><img src="images/gridallbum6.jpg" alt=""/></li>
+			<li><img src="images/gridallbum7.jpg" alt=""/></li>
+			<li><img src="images/gridallbum8.jpg" alt=""/></li>
+			<li><img src="images/gridallbum9.jpg" alt=""/></li>
+			<li><img src="images/gridallbum10.jpg" alt=""/></li>
+			<li><img src="images/gridallbum11.jpg" alt=""/></li>
+			<li><img src="images/gridallbum12.jpg" alt=""/></li>
+		</ul>
+			<script type="text/javascript">
+		$(window).load(function() {
+			
+		  $("#flexiselDemo2").flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: false,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 2
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems: 3
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 3
+					}
+				}
+			});
+			});
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
+		</div>	
+	<div class="footer">
+		<h6>Дисклеймер : </h6>
+		<p class="claim">это не официальный сайт, я не собираюсь использовать фильмы, бренды, новости.Моя цель здесь - тренировать и оттачивать свои навыки в прогамировании.</p>
+		</div>
+	</div>	
+	</div>
+	</div>
+	<div class="clearfix"></div>
+</body>
+</html>
